@@ -25,7 +25,7 @@ nav {
   font-size: 1.5rem;
   justify-content: space-between;
 }
-nav h1 {
+nav > h1 {
   color: #f2f0eb;
   font-size: 3rem;
 }
@@ -40,7 +40,7 @@ header {
   align-content: center; */
 }
 section {
-  border: 0.1rem solid #d4e9e2;
+  border: solid #d4e9e2;
   margin-top: 1rem;
   padding-left: 1rem;
   padding-top: 0.5rem;
@@ -48,9 +48,13 @@ section {
 }
 
 div {
-  border: 0.1rem solid transparent;
+  border: transparent;
   background-color: #00754a;
   margin-top: 0.5rem;
   text-align: end;
   font-weight: bold;
+}
+section,
+div {
+  border: 0.1rem;
 }
